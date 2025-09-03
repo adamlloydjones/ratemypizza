@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Pipenv
+Pipfile.lock
+
+# Virtualenvs
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Django
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Docker
+*.pid
+*.db
+*.tar
+*.gz
+*.bak
+*.swp
+.dockerignore
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (if you add frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Coverage / Testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Git
+.git/
